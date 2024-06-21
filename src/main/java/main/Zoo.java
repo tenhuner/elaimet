@@ -27,8 +27,8 @@ public class Zoo { //definition of the Znimal class
     }
 
     public void runAnimals(int laps) { 
-        for (int i = 0; i < laps; i++) { // The outer loop repeats the given number of rounds
-            for (Animal animal : animals) { // The inner loop goes through all the animals and calls their run method
+        for (Animal animal : animals) { // The outer loop repeats the given number of rounds
+            for (int i = 0; i < laps; i++) { // The inner loop goes through all the animals and calls their run method
                 animal.run(); // Calls the run method of the Animal class
             }
         }
