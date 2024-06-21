@@ -36,7 +36,7 @@ public class Animal { //definition of the Animal class
         System.out.println(name + " juoksee kovaa vauhtia!");
     }
 //@Override: This method overwrites
-//    @Override
+    @Override
     public String toString() {
         return species + ": " + name + ", " + age + " vuotta";
     }
