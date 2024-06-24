@@ -5,11 +5,11 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // Create a Scanner object to read the input
 
-        System.out.println("Anna eläintarhalle nimi:");
+        System.out.println("Anna eläintarhalle nimi:"); // Ask the user for the name of the zoo
         String zooName = scanner.nextLine();
-        Zoo zoo = new Zoo(zooName);
+        Zoo zoo = new Zoo(zooName); // Create a new Zoo object using the given name
 
         while (true) {
             System.out.println("1) Luo uusi eläin, 2) Listaa kaikki eläimet, 3) Juoksuta eläimiä, 0) Lopeta ohjelma");
